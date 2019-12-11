@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -19,6 +20,7 @@
     "worker-loader": "^2.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "webpack-cli": "^3.3.10"
   }
 }
