@@ -1,26 +1,24 @@
 {
   "name": "comlink-webpack-example",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "an example to show you how to enjoy the beauty of web worker with comlink and bundled with webpack.",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
-    "deploy": "gh-pages -d dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "zoubingwu",
+  "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.7.5",
-    "babel-loader": "^8.0.6",
-    "comlink": "^4.2.0",
-    "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.41.2",
-    "worker-loader": "^2.0.0"
+    "comlink": "^4.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
     "gh-pages": "^2.1.1",
-    "webpack-cli": "^3.3.10"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "worker-loader": "^2.0.0"
   }
 }
